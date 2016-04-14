@@ -5,7 +5,11 @@ import org.junit.Test;
 
 public class trianguloTest {
 	private double diferenciaPermitida;
+<<<<<<< HEAD
 
+=======
+	@SuppressWarnings("deprecation")
+>>>>>>> 9ee4bbb543d51e230da11d57ff032e8ef89470fb
 	@Test
 	public void areaTest() {
 		triangulo miTriangulo = new triangulo();
@@ -20,7 +24,11 @@ public class trianguloTest {
 		double resultadoEsperado = 12;
 		miTriangulo.perimetro(4.5, 5.5, 2);
 		double resultado = miTriangulo.mostrar();
+<<<<<<< HEAD
 		Assert.assertEquals(resultadoEsperado, resultado, diferenciaPermitida);
+=======
+		Assert.assertEquals(resultadoEsperado, resultadoEsperado, diferenciaPermitida);
+>>>>>>> 9ee4bbb543d51e230da11d57ff032e8ef89470fb
 	}
 	@Test
 	public void inicializadoTest(){
